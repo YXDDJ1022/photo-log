@@ -1,0 +1,97 @@
+# ==============================
+# Python
+# ==============================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# ==============================
+# Virtual Environments
+# ==============================
+
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Django
+# ==============================
+
+# Local SQLite database
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3-journal
+
+# User-uploaded media files
+/media/
+
+# Collected static files
+/staticfiles/
+
+# Django local settings
+local_settings.py
+
+# ==============================
+# Environment Variables
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Testing / Coverage
+# ==============================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+junit.xml
+
+# ==============================
+# Type Checking / Linting
+# ==============================
+
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ==============================
+# Logs / Temporary Files
+# ==============================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ==============================
+# IDE / OS
+# ==============================
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
